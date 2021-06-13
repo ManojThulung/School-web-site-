@@ -1,0 +1,1 @@
+# School web site template
