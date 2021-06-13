@@ -1,1 +1,1 @@
-# School web site template
+# School web site design
