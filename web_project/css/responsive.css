@@ -1,0 +1,66 @@
+
+/*-----  HOME PAGE  -----*/
+/*__ Image slide __*/
+
+@media (max-width: 1140px){
+		#carouselExampleIndicators img{
+		height: 500px;
+		width: 100%;
+	}
+
+@media (max-width: 1110px){
+	#carouselExampleIndicators .carousel-caption p{
+	font-size: 3rem;
+	}
+}
+
+
+@media (max-width: 960px){
+	#carouselExampleIndicators img{
+	height: 400px;
+	width: 100%;
+	}
+}
+
+@media (max-width: 820px){
+	#carouselExampleIndicators .carousel-caption p{
+	font-size: 2.5rem;
+	}
+
+
+@media (max-width: 768px) {
+
+	/*Event.html-event2_area-image2*/
+  	#event2_area .row div:nth-of-type(2) {
+		height: 400px;
+	}
+
+}
+
+@media (max-width: 720px) {
+  	#carouselExampleIndicators img{
+	height: 320px;
+	width: 100%;
+	}
+
+}
+
+@media (max-width: 700px){
+	#carouselExampleIndicators .carousel-caption p{
+	font-size: 2rem;
+	}
+
+}
+
+@media (max-width: 560px){
+	#carouselExampleIndicators .carousel-caption p{
+	font-size: 1.8rem;
+	}
+}
+
+
+
+/*___ Event-and-gallery-start ___*/
+
+
+/*___ Event-and-gallery-end ___*/

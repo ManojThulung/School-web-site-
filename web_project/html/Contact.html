@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Paradise English Boarding School</title>
+
+    <!-- theme style css -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+
+    <!-- Font_awesome -->
+    <script
+      src="https://kit.fontawesome.com/1b72455679.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google fonts -->
+    <!-- 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap" rel="stylesheet"> -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Lato:wght@400;700;900&family=Nunito+Sans:wght@400;600;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header-start -->
+    <!-- Header-end -->
+    <div id="Event_gallery_area">
+      <!-- Navigation bar-->
+      <nav id="navbars" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="Home.html">
+          <img src="../images/paradise_logo.png" width="55rem" height="55rem" />
+          PEBS
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#main_nav"
+          aria-controls="main_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main_nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Event.html">Event Gallery</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- main-Image-start -->
+      <div
+        id="event_image_area"
+        style="
+          background-image: url(../images/contact1.jpg);
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="know-us">
+          <h4>Get in touch with us</h4>
+          <h1>Contact us</h1>
+        </div>
+      </div>
+      <!-- main-Image-end -->
+
+      <!-- form_area-start -->
+      <div id="form_area">
+        <div class="container">
+          <div class="row">
+            <div
+              class="
+                col-md-5
+                contact_des_background
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <div class="contact_des">
+                <div class="head">
+                  <h2>Contact Information</h2>
+                </div>
+                <ul>
+                  <h4>
+                    <li><i class="fas fa-map-marked-alt"></i> Location</li>
+                  </h4>
+                  <li>Itahari 20, Tarahara</li>
+                </ul>
+                <ul>
+                  <h4>
+                    <li>
+                      <i class="fas fa-phone-square-alt"></i> Contact number
+                    </li>
+                  </h4>
+                  <li>9999999999/ 9999999999</li>
+                  <li>025-999-999</li>
+                </ul>
+                <ul>
+                  <h4>
+                    <li><i class="far fa-envelope"></i> Email</li>
+                  </h4>
+                  <li>schoolemai@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7 contact_form_background">
+              <form>
+                <div class="head">
+                  <h1>Leave us your Info</h1>
+                  <h4>and we will get back to you</h4>
+                </div>
+                <div class="form-group">
+                  <label for="name">Full Name: </label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="fullName"
+                    id="fname"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="from-group">
+                  <label for="email">Email: </label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contact_number">Contact Number: </label>
+                  <input
+                    class="form-control"
+                    type="number"
+                    name="contact_number"
+                    id="contact_number"
+                    placeholder="Your contact number"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message: </label>
+                  <textarea
+                    class="form-control"
+                    type="text"
+                    name="message"
+                    id="message"
+                    placeholder="Your Message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <div>
+                  <button type="Submit" class="btn btn-primary btn-block">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- form-area-end -->
+
+      <!-- Google-map-area-start -->
+      <div id="map_area">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23886.04412536958!2d87.27457816002585!3d26.70027804991079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b6ba6bf5f361b01!2sParadise%20English%20Boarding%20School!5e0!3m2!1sen!2snp!4v1600851789391!5m2!1sen!2snp"
+          width="90%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+      <!-- google-map-area-end -->
+
+      <!-- Footer-start -->
+      <div class="footer_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 text-center">
+              <h2>
+                <img src="../images/paradise_logo.png" />Paradise E. B. S.
+              </h2>
+              <ul style="text-align: left; padding-left: 80px">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i> Itahari 20, Tarahara
+                </li>
+                <li>
+                  <i class="fas fa-phone-alt"></i> +977 000000000, 025-000-000
+                </li>
+                <li><i class="fas fa-envelope"></i> schoolemail@gmail.com</li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-center">
+              <h2>Connect</h2>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+              <h2>Useful Link</h2>
+              <ul>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>© Copyright 2020 Paradise English Boarding School</p>
+        </div>
+      </div>
+      <!-- Footer-end -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#navbars");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </body>
+</html>
